@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import Ship from './ship';
+import Ship from '../battleship/components/ship';
 
 describe('#ship', () => {
   const ship = new Ship(5);
